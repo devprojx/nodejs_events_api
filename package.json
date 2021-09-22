@@ -1,0 +1,17 @@
+{
+  "name": "nodejs_events_api",
+  "version": "1.0.0",
+  "description": "A simple RestAPI that provide routes to Create, Update, Delete and Search for an event resource",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yanik Black",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
