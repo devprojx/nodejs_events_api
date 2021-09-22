@@ -12,11 +12,11 @@ An event can be described as a public assembly for the purpose of celebration, e
 
 ```ts
 Event {
- 	id: integer
+ 	  id: integer
     name: string
     type: 'Social' | 'Educational' | 'Entertainment' | 'Political' | 'Corporate' | 'Sport'
     details: string
-  	cost: number
+  	 cost: number
     startDate: string | Date
     duration: integer
     dateCreated: string | Date
